@@ -362,8 +362,8 @@ system_nginx_install() {
   sleep 2
 
   sudo su - root <<EOF
-  apt install -y nginx
-  rm /etc/nginx/sites-enabled/default
+  # apt install -y nginx
+  # rm /etc/nginx/sites-enabled/default
   sudo apt update
 EOF
 
